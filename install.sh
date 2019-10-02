@@ -23,7 +23,7 @@ brew analytics off
 # create a Brewfile
 touch Brewfile
 
-# add the formulas you can't live without
+# add the formulas I can't live without
 echo 'install git' >> Brewfile
 echo 'install vim --override-system-vi' >> Brewfile
 echo 'install git' >> Brewfile
@@ -32,7 +32,7 @@ echo 'install curl' >> Brewfile
 echo 'install unrar' >> Brewfile
 echo 'install speedtestCli' >> Brewfile
 
-# you can also tap into repositories
+# tap into repositories
 echo 'tap phinze/homebrew-cask' >> Brewfile
 
 # `bundle` simply prefixes every line in the Brewfile with "brew"
